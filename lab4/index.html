@@ -2,20 +2,16 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
@@ -23,25 +19,62 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenge for this lab was to write pseudocode for an everyday task and for a simple computer game. The pseudocodes for each then must be incorporated into the Lab 4 javascript file as comments, and to then add that js code to the index html file and design a page to host this lab and our pseudocode, incorporating any images necessary.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>I initially had some issues with the actual practice of pseudocoding, and specifically in figuring out how detailed my instructions should get, or how to reflect two actions that are meant to occur at the same time. My main challenge, as is probably still visible on this site, is the alignment of my pseudocode on the webpage. I spent a couple of hours trying different codes I could find online and trying to incorporate feedback from an AI, but I can't figure out how to specifically target the pseudocode and align it within normal page boundaries.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Overall, I think this assignment went well. I wish I could've figured out that formatting, but it is what it is. I do think the process of pseudocoding is helpful in that it helps to think of programming/coding as a language, and forces us to start incorporating its "grammar". I think some of my pseudocode doesn't perfectly correspond to how actual code would work, particularly in the randomized selection.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<pre><code>
+							// Lab 4: Pseudocoding and problem-solving
+							// Author: Morris Carmichael
+							// Date: 4/23/2024
+							
+							// Making sourdough starter
+							// 1. Verify that you have the required materials: whole wheat flour, non-chlorinated water, a glass bowl, a resealable glass jar or similar container, a measuring cup, a cheesecloth, and a fork.
+							// 2. Measure out one cup of whole wheat flour in your measuring cup.
+							// 3. Add this flour to the glass bowl.
+							// 4. Measure out three fourths of a cup of water in your measuring cup.
+							// 5. Add this water to the glass bowl.
+							// 6. Mix the flour and water together in the bowl using the fork until a dough is formed, and there is little to no loose flour visible.
+							// 7. Loosely cover the bowl with the cheesecloth, and let sit approximately 24 hours in a warm spot (75-80 degrees Fahrenheit is ideal).
+							// 8. After 24 hours have passed, remove the cheesecloth and mix the dough with the fork well.
+							// 9. Measure out half a cup of this dough and discard it.
+							// 10. Add half of a cup of flour to the remaining dough in the bowl.
+							// 11. Add three eighths of a cup (or six tablespoons) of water to the remaining dough in the bowl.
+							// 12. Mix the newly added flour and water into the dough with the fork until there is little to no loose flour visible.
+							// 13. Repeat steps 7 through 12 until six days have passed.
+							// 14. Check the strength and bubbliness of your dough mixture; if the mixture is not yet bubbling, begin feeding your mixture twice a day (performing steps 10-12 is “feeding”).
+							// 15. Cover the bowl loosely with a cheesecloth, and wait another 24 hours.
+							// 16. On day 7, your sourdough starter should be ready to use. Transfer your mixture to your resealable container.
+							// 17. You now have sourdough starter. Whenever your sourdough starter is used, replenish the starter with an equivalent amount of flour and water – one cup of starter would be substituted with one cup of flour and three fourths of a cup of water, for reference.
+							
+							// Rock paper scissors
+							// 1. Initiate game
+							// 2. Randomize variables “rock”, “paper”, “scissors”
+							// 3. Accept user input “rock”, “paper”, or “scissors”
+							// 4. Select a randomized variable
+							// 5. Output randomized variable
+							// 6a. If user input = “rock”, then variable “scissors” = loss and variable “paper” = win
+							// 6b. If user input = “paper”, then variable “scissors” = win and variable “rock” = lose
+							// 6c. If user input = “scissors”, then variable “rock” = loss and variable “paper” = win
+							// 7. Validate user input
+							// 8. Display user input and selected variable
+							// 9. isplay result screen showing player loss or win</code></pre>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
