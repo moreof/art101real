@@ -1,11 +1,11 @@
 /* this css file will only style the homepage of our site */
 
 #my-portrait {
-  width: 500px;
+  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 }
 
 h1 {
