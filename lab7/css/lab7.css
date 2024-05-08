@@ -45,3 +45,10 @@ h2 {
 .minor-section img {
   width: 500px
 }
+#links {
+  display: flex;
+  justify-content: center;
+}
+#links button {
+  margin: 0 auto;
+}

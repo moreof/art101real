@@ -26,3 +26,10 @@
     font-family:'Courier New', Courier, monospace;
     font-weight: bold
 }
+#links {
+  display: flex;
+  justify-content: center;
+}
+#links button {
+  margin: 0 auto;
+}

@@ -41,3 +41,10 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
+#links {
+  display: flex;
+  justify-content: center;
+}
+#links button {
+  margin: 0 auto;
+}

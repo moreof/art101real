@@ -29,7 +29,6 @@ h2 {
     border:solid 15px rgb(61, 27, 54);
     font-size: 20px; 
 }
-
 .center {
     display: block;
     margin-left: auto;
@@ -39,4 +38,11 @@ h2 {
   
 .minor-section img {
   width: 500px
+}
+#links {
+  display: flex;
+  justify-content: center;
+}
+#links button {
+  margin: 0 auto;
 }
