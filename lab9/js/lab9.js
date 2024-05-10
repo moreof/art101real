@@ -11,16 +11,21 @@ $("#problems").append("<button id='button-problems'>Make Special</button>");
 $("#results").append("<button id='button-results'>Make Special</button>");
 $("#reflection").append("<button id='button-reflection'>Make Special</button>");
 //Add an Event Listener: Add an click listener to each button. Here's one:
+
 // add a click listener to the challenge button
 $("button-challenge").click(function(){
     $("#challenge").toggleClass("special");
+    $("#challenge").toggleClass("minor-section");
 });
 $("button-problems").click(function(){
     $("#problems").toggleClass("special");
-});
-$("button-results").click(function(){
-    $("#results").toggleClass("special");
+    $("#problems").toggleClass("minor-section");
 });
 $("button-reflection").click(function(){
     $("#reflection").toggleClass("special");
+    $("#reflection").toggleClass("minor-section");
+});
+$("button-results").click(function(){
+    $("#results").toggleClass("special");
+    $("#results").toggleClass("minor-section");
 });
