@@ -1,8 +1,8 @@
 .special {
-    background-color: palevioletred;
-    border: dotted 50px palegreen;
-    color: pink;
-    font-weight: bold;
+    background-color: rgb(255, 162, 193);
+    border: dashed 30px palegreen;
+    font-weight: lighter;
+
 }
 .minor-section {
     padding: 10px;
