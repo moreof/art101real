@@ -1,0 +1,32 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: palegreen;
+  }
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 20px;
+    margin-left: 10px;
+    color: rgb(15, 53, 16)
+  }
+  h1 {
+    color:  rgb(15, 53, 16);
+    font-size: 250%;
+    font-family:'Courier New', Courier, monospace;
+  }
+  h2 {
+    color:  rgb(15, 53, 16);
+    font-size: 150%;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold
+  }
+  .minor-section img {
+    width: 500px
+  }
+  #links {
+    display: flex;
+    justify-content: center;
+  }
+  #links button {
+    margin: 0 auto;
+  }
